@@ -69,17 +69,17 @@
 }
 @media (max-width:576px) {
     :root{
-        --fs-16: 10px;
+        --fs-16: 14px;
         --fs-20: 14px;
-        --fs-22: 16px;
-        --fs-24: 18px;
-        --fs-40: 20px;
-        --fs-52: 24px;
+        --fs-22: 18px;
+        --fs-24: 16px;
+        --fs-40: 28px;
+        --fs-52: 32px;
     }
 }
 @media (max-width:768px) {
     :root{
-        --fs-16: 12px;
+        --fs-16: 16px;
         --fs-20: 14px;
         --fs-22: 18px;
         --fs-24: 20px;
