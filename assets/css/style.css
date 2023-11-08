@@ -237,6 +237,18 @@
 
     /* drop */
     box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.15);
+    animation: video;
+    animation-delay: 3s;
+    animation-duration: 3s;
+}
+
+@keyframes video {
+    0%{
+        margin-left: -150px;
+    }
+    100%{
+        margin-left: 0;
+    }
 }
 
 .mt-150 {
@@ -288,7 +300,33 @@
     top: 50%;
     opacity: 0.5;
 }
-
+.slide{
+    animation: slide;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+@keyframes slide {
+    0%{
+        transform: scale(0.6);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.sec3-img{
+    animation: sec3-img;
+    animation-duration: 5s;
+    animation-delay: 4s;
+}
+@keyframes sec3-img {
+    0%{
+        padding-top: 150px;
+    }
+    100%{padding-top: 0;
+    }
+}
 /* slider */
 .slidr .slick-dots li.slick-active {
     width: 23px !important;
