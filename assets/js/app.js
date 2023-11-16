@@ -36,8 +36,7 @@ $('.slidr').slick({
   speed: 300,
   slidesToShow: 3.1,
   autoplay: true,
-  slidesToScroll: 2,
-  // autoplay:true,
+  slidesToScroll: 3,
   responsive: [
     {
       breakpoint: 1200,
@@ -52,16 +51,9 @@ $('.slidr').slick({
       breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 2
       }
     },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
   ]
 });
 $('.slidr-2').slick({

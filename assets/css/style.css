@@ -893,7 +893,12 @@
 }
 @media (max-width:768px) {
     .vh_100 {
-        min-height: 50vh;
+        min-height: 100vh;
+    }
+}
+@media (max-width:767px) {
+    .icon{
+        right: 25px !important;
     }
 }
 @media (max-width:992px) {
@@ -910,6 +915,9 @@
         border-bottom: 1px solid #4F4E4E;
         width: 100%;
         padding-bottom: 30px;
+    }
+    .icon{
+        right: 5px !important;
     }
 }
 @media (min-width:992px) {
